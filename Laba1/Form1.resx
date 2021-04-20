@@ -121,36 +121,33 @@
     <value>17, 17</value>
   </metadata>
   <assembly alias="System.Drawing" name="System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" />
-  <data name="newToolStripMenuItem.Size" type="System.Drawing.Size, System.Drawing">
-    <value>180, 22</value>
-  </data>
-  <data name="newToolStripMenuItem.Text" xml:space="preserve">
-    <value>Новое</value>
-  </data>
   <data name="windowToolStripMenuItem.Size" type="System.Drawing.Size, System.Drawing">
     <value>48, 20</value>
   </data>
   <data name="windowToolStripMenuItem.Text" xml:space="preserve">
-    <value>Окно</value>
+    <value>Файл</value>
   </data>
-  <data name="windowToolStripMenuItem1.Size" type="System.Drawing.Size, System.Drawing">
-    <value>72, 20</value>
+  <data name="toolStripMenuItem1.Size" type="System.Drawing.Size, System.Drawing">
+    <value>83, 20</value>
   </data>
-  <data name="windowToolStripMenuItem1.Text" xml:space="preserve">
-    <value>2 Window</value>
+  <data name="toolStripMenuItem1.Text" xml:space="preserve">
+    <value>Параметры</value>
+  </data>
+  <data name="FugureToolStripMenuItem.Size" type="System.Drawing.Size, System.Drawing">
+    <value>59, 20</value>
+  </data>
+  <data name="FugureToolStripMenuItem.Text" xml:space="preserve">
+    <value>Фигура</value>
   </data>
   <data name="menuStrip1.Location" type="System.Drawing.Point, System.Drawing">
     <value>0, 0</value>
   </data>
   <data name="menuStrip1.Size" type="System.Drawing.Size, System.Drawing">
-    <value>1008, 24</value>
+    <value>1113, 24</value>
   </data>
   <assembly alias="mscorlib" name="mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" />
   <data name="menuStrip1.TabIndex" type="System.Int32, mscorlib">
-    <value>1</value>
-  </data>
-  <data name="menuStrip1.Text" xml:space="preserve">
-    <value>menuStrip1</value>
+    <value>0</value>
   </data>
   <data name="&gt;&gt;menuStrip1.Name" xml:space="preserve">
     <value>menuStrip1</value>
@@ -162,22 +159,493 @@
     <value>$this</value>
   </data>
   <data name="&gt;&gt;menuStrip1.ZOrder" xml:space="preserve">
+    <value>2</value>
+  </data>
+  <data name="NewToolStripMenuItem.Size" type="System.Drawing.Size, System.Drawing">
+    <value>163, 22</value>
+  </data>
+  <data name="NewToolStripMenuItem.Text" xml:space="preserve">
+    <value>Новый</value>
+  </data>
+  <data name="OpenToolStripMenuItem.Size" type="System.Drawing.Size, System.Drawing">
+    <value>163, 22</value>
+  </data>
+  <data name="OpenToolStripMenuItem.Text" xml:space="preserve">
+    <value>Открыть</value>
+  </data>
+  <data name="SaveToolStripMenuItem.Enabled" type="System.Boolean, mscorlib">
+    <value>False</value>
+  </data>
+  <data name="SaveToolStripMenuItem.Size" type="System.Drawing.Size, System.Drawing">
+    <value>163, 22</value>
+  </data>
+  <data name="SaveToolStripMenuItem.Text" xml:space="preserve">
+    <value>Сохранить</value>
+  </data>
+  <data name="Save_AsToolStripMenuItem.Enabled" type="System.Boolean, mscorlib">
+    <value>False</value>
+  </data>
+  <data name="Save_AsToolStripMenuItem.Size" type="System.Drawing.Size, System.Drawing">
+    <value>163, 22</value>
+  </data>
+  <data name="Save_AsToolStripMenuItem.Text" xml:space="preserve">
+    <value>Сохранить как...</value>
+  </data>
+  <data name="LineColorToolStripMenuItem.Size" type="System.Drawing.Size, System.Drawing">
+    <value>163, 22</value>
+  </data>
+  <data name="LineColorToolStripMenuItem.Text" xml:space="preserve">
+    <value>Цвет линии</value>
+  </data>
+  <data name="BackgroundColorToolStripMenuItem.Size" type="System.Drawing.Size, System.Drawing">
+    <value>163, 22</value>
+  </data>
+  <data name="BackgroundColorToolStripMenuItem.Text" xml:space="preserve">
+    <value>Цвет фона</value>
+  </data>
+  <data name="LineWidthToolStripMenuItem.Size" type="System.Drawing.Size, System.Drawing">
+    <value>163, 22</value>
+  </data>
+  <data name="LineWidthToolStripMenuItem.Text" xml:space="preserve">
+    <value>Толщина линии</value>
+  </data>
+  <data name="ImageSizeToolStripMenuItem.Size" type="System.Drawing.Size, System.Drawing">
+    <value>163, 22</value>
+  </data>
+  <data name="ImageSizeToolStripMenuItem.Text" xml:space="preserve">
+    <value>Размер рисунка</value>
+  </data>
+  <data name="StraightLineMenuStrip.Size" type="System.Drawing.Size, System.Drawing">
+    <value>163, 22</value>
+  </data>
+  <data name="StraightLineMenuStrip.Text" xml:space="preserve">
+    <value>Прямая</value>
+  </data>
+  <data name="CurveLineMenuStrip.Size" type="System.Drawing.Size, System.Drawing">
+    <value>163, 22</value>
+  </data>
+  <data name="CurveLineMenuStrip.Text" xml:space="preserve">
+    <value>Кривая</value>
+  </data>
+  <data name="RectangleMenuStrip.Size" type="System.Drawing.Size, System.Drawing">
+    <value>163, 22</value>
+  </data>
+  <data name="RectangleMenuStrip.Text" xml:space="preserve">
+    <value>Прямоугольник</value>
+  </data>
+  <data name="EllipseMenuStrip.Size" type="System.Drawing.Size, System.Drawing">
+    <value>163, 22</value>
+  </data>
+  <data name="EllipseMenuStrip.Text" xml:space="preserve">
+    <value>Эллипс</value>
+  </data>
+  <data name="FillMenuStrip.Size" type="System.Drawing.Size, System.Drawing">
+    <value>163, 22</value>
+  </data>
+  <data name="FillMenuStrip.Text" xml:space="preserve">
+    <value>Заливка</value>
+  </data>
+  <data name="StatusBar.Location" type="System.Drawing.Point, System.Drawing">
+    <value>0, 601</value>
+  </data>
+  <data name="StatusBar.Size" type="System.Drawing.Size, System.Drawing">
+    <value>1113, 25</value>
+  </data>
+  <data name="StatusBar.TabIndex" type="System.Int32, mscorlib">
+    <value>2</value>
+  </data>
+  <data name="&gt;&gt;StatusBar.Name" xml:space="preserve">
+    <value>StatusBar</value>
+  </data>
+  <data name="&gt;&gt;StatusBar.Type" xml:space="preserve">
+    <value>System.Windows.Forms.StatusBar, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;StatusBar.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;StatusBar.ZOrder" xml:space="preserve">
+    <value>1</value>
+  </data>
+  <data name="statusBarPanelCursor.Name" xml:space="preserve">
+    <value>statusBarPanelCursor</value>
+  </data>
+  <data name="statusBarPanelCursor.Text" xml:space="preserve">
+    <value>Курсор</value>
+  </data>
+  <data name="statusBarPanelCursor.Width" type="System.Int32, mscorlib">
+    <value>90</value>
+  </data>
+  <data name="statusBarPanelColor1.Name" xml:space="preserve">
+    <value>statusBarPanelColor1</value>
+  </data>
+  <data name="statusBarPanelColor1.Text" xml:space="preserve">
+    <value>Цвет 1</value>
+  </data>
+  <data name="statusBarPanelColor1.Width" type="System.Int32, mscorlib">
+    <value>80</value>
+  </data>
+  <data name="statusBarPanelColor2.Name" xml:space="preserve">
+    <value>statusBarPanelColor2</value>
+  </data>
+  <data name="statusBarPanelColor2.Text" xml:space="preserve">
+    <value>Цвет 2</value>
+  </data>
+  <data name="statusBarPanelColor2.Width" type="System.Int32, mscorlib">
+    <value>80</value>
+  </data>
+  <assembly alias="System.Windows.Forms" name="System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" />
+  <data name="statusBarPanelWidth.Alignment" type="System.Windows.Forms.HorizontalAlignment, System.Windows.Forms">
+    <value>Center</value>
+  </data>
+  <data name="statusBarPanelWidth.Name" xml:space="preserve">
+    <value>statusBarPanelWidth</value>
+  </data>
+  <data name="statusBarPanelWidth.Text" xml:space="preserve">
+    <value>LineWidth</value>
+  </data>
+  <data name="statusBarPanelWidth.Width" type="System.Int32, mscorlib">
+    <value>50</value>
+  </data>
+  <data name="statusBarPanelSize.Name" xml:space="preserve">
+    <value>statusBarPanelSize</value>
+  </data>
+  <data name="statusBarPanelSize.Text" xml:space="preserve">
+    <value>FormSize</value>
+  </data>
+  <metadata name="ToolStrip.TrayLocation" type="System.Drawing.Point, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
+    <value>132, 17</value>
+  </metadata>
+  <data name="NewFileStripButton.Image" type="System.Drawing.Bitmap, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+    <value>
+        iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8
+        YQUAAAAJcEhZcwAADsMAAA7DAcdvqGQAAACMSURBVDhP7Y3BCYAwFEM7h1M4Q/fy2rUEp3AFT1UovSrR
+        /22orQpeDTxqNS8aToxxVeTVu7A4dM35DKRyHxbzUyr1oASmsd8lBXf9JtVyUGCxdCd8CKEV9QgXaqK1
+        dsc5h3t5RKX8nP1yUh1BUcn/ng/wiOgpLKLIMoNv6Ih2zT+QBu54HHiD1L/EmA2wn/hWQ4oVCwAAAABJ
+        RU5ErkJggg==
+</value>
+  </data>
+  <data name="NewFileStripButton.ImageTransparentColor" type="System.Drawing.Color, System.Drawing">
+    <value>Magenta</value>
+  </data>
+  <data name="NewFileStripButton.Size" type="System.Drawing.Size, System.Drawing">
+    <value>23, 22</value>
+  </data>
+  <data name="NewFileStripButton.Text" xml:space="preserve">
+    <value>NewFileStripButton</value>
+  </data>
+  <data name="NewFileStripButton.ToolTipText" xml:space="preserve">
+    <value>Новый</value>
+  </data>
+  <data name="OpenFileStripButton.Image" type="System.Drawing.Bitmap, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+    <value>
+        iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8
+        YQUAAAAJcEhZcwAADsMAAA7DAcdvqGQAAAEpSURBVDhP3ZG/S8NAGIbz96iLOLhndFXQwcFBSsAhN6h/
+        gZu4OoiC7qWOHdRJxMFFEPwxWKu0Tdur+XW5ZHy9O5oj5mLo7AdPDr7c+9yXi1WsNE1RB+c8EixPt5uV
+        bzy/ecFrpwfHcWDbtoYQAt/34z8luWDj6BpzbhOdPsWg7yEMIiVwXbdaIkKbovGcC1jCsT6VfI0CLRgN
+        x6Yky7Ktx/chlvYuYa2eGqwdXmmBXIsSxlhkicfH4m4L5OxOneZNQvTGAVYO2sYEZSilUN8tT+p6vr7t
+        4vhxFCtBGS0QE3QXSBP7F/f4DpkSHLefasMSLRAX0Xh4G2BeSHZObpUgSZLasEQLZInAtpjkM2ZcCaoC
+        ZX4J8pIN+aIqUOa/C2bFEIhfqpqzQ/ED2eDPKLur5xwAAAAASUVORK5CYII=
+</value>
+  </data>
+  <data name="OpenFileStripButton.ImageTransparentColor" type="System.Drawing.Color, System.Drawing">
+    <value>Magenta</value>
+  </data>
+  <data name="OpenFileStripButton.Size" type="System.Drawing.Size, System.Drawing">
+    <value>23, 22</value>
+  </data>
+  <data name="OpenFileStripButton.Text" xml:space="preserve">
+    <value>OpenFileStripButton</value>
+  </data>
+  <data name="OpenFileStripButton.ToolTipText" xml:space="preserve">
+    <value>Открыть</value>
+  </data>
+  <data name="SaveStripButton.Image" type="System.Drawing.Bitmap, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+    <value>
+        iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8
+        YQUAAAAJcEhZcwAADsMAAA7DAcdvqGQAAAB+SURBVDhPY/j27Vs4EL8B4v8kYpCecJABb7QL1vxnCJ5D
+        EgbpAekFGYBVATEYrBfZgA/vPxKFh7MBpOJBagA2PyNjZLW0NQCdjy4OwmC9X758uVM8/xiGBnQ+ujgI
+        gw34+vWrDLIh6AqRNSOLgzDYABCAGQISACkC0cThb/8BXmPqvKWoVTAAAAAASUVORK5CYII=
+</value>
+  </data>
+  <data name="SaveStripButton.ImageTransparentColor" type="System.Drawing.Color, System.Drawing">
+    <value>Magenta</value>
+  </data>
+  <data name="SaveStripButton.Size" type="System.Drawing.Size, System.Drawing">
+    <value>23, 22</value>
+  </data>
+  <data name="SaveStripButton.Text" xml:space="preserve">
+    <value>SaveStripButton</value>
+  </data>
+  <data name="SaveStripButton.ToolTipText" xml:space="preserve">
+    <value>Сохранить</value>
+  </data>
+  <data name="SaveAsStripButton.Image" type="System.Drawing.Bitmap, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+    <value>
+        iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8
+        YQUAAAAJcEhZcwAADsMAAA7DAcdvqGQAAADXSURBVDhPY/j27dt/cjADDIA5wXNIwjgNgJmOCw8BAwhh
+        vtiF/6uXnIQZeOHLly8GRBsA0rx+97H/eXl5YDxnzpz/X79+XUCUATDNvr6+/5OTk8GanZycIF4hZAC6
+        5pMnT4LZVVVVIAM2YBgA4iPjK1euYGgGsV+/fv3/+/fvDngNIKA5AR4LIGciG4DL2RiaQQAUkieuP4Ub
+        AjIgZsK+/62trYQ1wwDIEJizYTgiIgKMCWpGB6DEcf/+fXA0weKbaM0gAHRNAcwVQMMOAPkN4BSHFTAw
+        AAAmMGgNYATuCwAAAABJRU5ErkJggg==
+</value>
+  </data>
+  <data name="SaveAsStripButton.ImageTransparentColor" type="System.Drawing.Color, System.Drawing">
+    <value>Magenta</value>
+  </data>
+  <data name="SaveAsStripButton.Size" type="System.Drawing.Size, System.Drawing">
+    <value>23, 22</value>
+  </data>
+  <data name="SaveAsStripButton.Text" xml:space="preserve">
+    <value>SaveAsStripButton</value>
+  </data>
+  <data name="SaveAsStripButton.ToolTipText" xml:space="preserve">
+    <value>Сохранить как</value>
+  </data>
+  <data name="toolStripSeparator1.Size" type="System.Drawing.Size, System.Drawing">
+    <value>6, 25</value>
+  </data>
+  <data name="LineColorStripButton.Image" type="System.Drawing.Bitmap, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+    <value>
+        iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8
+        YQUAAAAJcEhZcwAADsMAAA7DAcdvqGQAAAC0SURBVDhPpY/LDcIwEAVTBDfKSAfuzUVwpAVXEdpA4kxC
+        Il+NxtJD/oWEcBjJu+s39nbe+/APUWCMaVJebvGTwFpbzTYFhEQ5ywTjc6pY5qUKAr3dAuaphLP6XwV6
+        Xa9Jskug8DDcYp1KNgVzEZaAkKBHphJM4ys452KNABSWTDQFXOQs1sKwKiBEzU9YpwyKTAAaIAHWSQMl
+        meBx6iKS9Zc+ovp8vUdUw2EBQUH9WeEYPrwB8cw7kdmcow8AAAAASUVORK5CYII=
+</value>
+  </data>
+  <data name="LineColorStripButton.ImageTransparentColor" type="System.Drawing.Color, System.Drawing">
+    <value>Magenta</value>
+  </data>
+  <data name="LineColorStripButton.Size" type="System.Drawing.Size, System.Drawing">
+    <value>23, 22</value>
+  </data>
+  <data name="LineColorStripButton.Text" xml:space="preserve">
+    <value>LineColorStripButton</value>
+  </data>
+  <data name="LineColorStripButton.ToolTipText" xml:space="preserve">
+    <value>Цвет линии</value>
+  </data>
+  <data name="ColorBackgroundStripButton.Image" type="System.Drawing.Bitmap, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+    <value>
+        iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8
+        YQUAAAAJcEhZcwAADsMAAA7DAcdvqGQAAAG2SURBVDhPjZO/S0JRFMfvVFtTQ2t/QJP4Dwg5OKljiJsQ
+        OTW5NbS4BroUgkhOLoJrNDSIBEkhNJRDpBj4IM3nLxTxdD9XX/TUoC9czuWe7/e8c773PrWK4XDoHY1G
+        V/1+/82yrCmLPWfklrR1zOfzHU3INxoNSaVSEolExO/3m8WeM3Jw4C5lC3Cgv3BfKpUkEAhIMpmUarUq
+        nU7HLPackYMD11WEqiSCwaDUajUBL19TObqxzN4BOThw0ThiL61R3REDxPv5pomT2URyTzlp2S3Dgbsc
+        x6swh/lo8fPDluvzWxN/d5B9zIrn0mMigIsGrcJhTGJOxLGDCxNXgZhOAFw0aFW73Z7iNGYBxL1ez+zX
+        8HpoAlw0XLHqdrvjUCgkxWJRCoWChMNh8fl8Eo1GpV6vG4EB4uq2ia4Ceo50uVyWeDwuiURCKpWK2LYt
+        mUzGFPnB+HlRREfXCDq1pYuc6fUwGAzutLMnOu5RhE4Yp3sak1nzfVFIw2XiJugix3TCOIhbu8pEsHaN
+        m0AnjIMnwOlg40PaBMbBE4z911NeBZ5gLLfzr59pFbprjE1zxbyTv39npb4B+8aR4F3bHGgAAAAASUVO
+        RK5CYII=
+</value>
+  </data>
+  <data name="ColorBackgroundStripButton.ImageTransparentColor" type="System.Drawing.Color, System.Drawing">
+    <value>Magenta</value>
+  </data>
+  <data name="ColorBackgroundStripButton.Size" type="System.Drawing.Size, System.Drawing">
+    <value>23, 22</value>
+  </data>
+  <data name="ColorBackgroundStripButton.Text" xml:space="preserve">
+    <value>ColorBackgroundStripButton</value>
+  </data>
+  <data name="ColorBackgroundStripButton.ToolTipText" xml:space="preserve">
+    <value>Цвет заливки</value>
+  </data>
+  <data name="LineWidthStripButton.Image" type="System.Drawing.Bitmap, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+    <value>
+        iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8
+        YQUAAAAJcEhZcwAADsMAAA7DAcdvqGQAAAGaSURBVDhPrVLNSgJRFHZRixZFEETR2/gMDgSCxKAI4gMI
+        gi6CiJa28AFGUQj0AWrlzvW40AoKlEJHZ7x3dGbn6ZzrGW1ScdMHZ3HO93PPvTORXfA878kwDIhGo1Ct
+        VoF6pvYDxdfdbhcSiYQK0DQNqMe5xpLdWCwWJ/P5/DubzYJpmiqg3W4D9Tj/Qv6YpduBoodGowHlchmk
+        kCrAsR0olR6h2WxSyD1LNzGbzS5t2/bj8ThMxjYGuKuAsTUBmhNPOraEgel3tVoN6vU6TB2xCrAxgPqK
+        UVEc6m7ZEgYmf+q6DpY13howGllAPOo+2LIGDi+GwyGkUiklpnIlB0yWAVTJZBKDRuC67jlbl8C1rvr9
+        PmQyGSWUbA4q2IL4wWBAW4TfAQAOpZR+LBYDMd0RgHPi8XQP9QdsXQO3eCkUCur7i6lUpqCo75gdKBaL
+        9IjPbAnD93291WpBLpdb3fl35fN5IB51N2wJA/+yI0xXD9nrvapTg3p7e4d0Ok2ngxDijC2bwP89dPe/
+        RbzjOKcs38S/BOyrdUAk8gOoyf0m0CMJyAAAAABJRU5ErkJggg==
+</value>
+  </data>
+  <data name="LineWidthStripButton.ImageTransparentColor" type="System.Drawing.Color, System.Drawing">
+    <value>Magenta</value>
+  </data>
+  <data name="LineWidthStripButton.Size" type="System.Drawing.Size, System.Drawing">
+    <value>23, 22</value>
+  </data>
+  <data name="LineWidthStripButton.Text" xml:space="preserve">
+    <value>LineWidthStripButton</value>
+  </data>
+  <data name="LineWidthStripButton.ToolTipText" xml:space="preserve">
+    <value>Толщина</value>
+  </data>
+  <data name="FillStripButton.Image" type="System.Drawing.Bitmap, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+    <value>
+        iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8
+        YQUAAAAJcEhZcwAADsMAAA7DAcdvqGQAAAFbSURBVDhPjZM9boNAEIU5Qo6Qs9AjpeQA9FwByaltUzqi
+        i+u4oIoL3MQF1aagp0nSUKxtAi43vPEOGn4UeaQnVjv7PmaGxRlH0zRPncq2bQ2ENfZs+v/AwaqqTBiG
+        xnVdEtbYuwuCt8EQBIHJsoyMeZ6boihQjb5er4/26DS01g8oGW+FOU1TWm82L2a9WhOoyyucs5ZhSEBd
+        /9Lz+HE0J30m7d/3JkkSqmQWMgfYvm57AKTUJ0OUtd3CmpUE7N52xvd98/31Q+blckXCPtrp5hVZOw3v
+        gJ4lACYAFovnfo0chCFj4GSWpZdleQNc6r5kz/MIgmEyAIJnAkB559OFzCyGSPMAgEA5KEv2LIU9VCBB
+        Y0CEwSDBPY/FlfD9GAAQ3YaK43gWIs3c7gRgZ6EZgnYwE0iY6VPbuzAEIPg+oB3MBCCIzch37eJvjfC0
+        tmnYA/KXPsBs0yIc5w+PFTpuquyZpwAAAABJRU5ErkJggg==
+</value>
+  </data>
+  <data name="FillStripButton.ImageTransparentColor" type="System.Drawing.Color, System.Drawing">
+    <value>Magenta</value>
+  </data>
+  <data name="FillStripButton.Size" type="System.Drawing.Size, System.Drawing">
+    <value>23, 22</value>
+  </data>
+  <data name="FillStripButton.Text" xml:space="preserve">
+    <value>FillStripButton</value>
+  </data>
+  <data name="FillStripButton.ToolTipText" xml:space="preserve">
+    <value>Заливка</value>
+  </data>
+  <data name="toolStripSeparator2.Size" type="System.Drawing.Size, System.Drawing">
+    <value>6, 25</value>
+  </data>
+  <data name="ChooseSizeStripButton.Image" type="System.Drawing.Bitmap, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+    <value>
+        iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8
+        YQUAAAAJcEhZcwAADsMAAA7DAcdvqGQAAABwSURBVDhP1Y9BDoAgDAR9G1/D98jTxEuvmJoMwYYIIhcP
+        kyy0O4FFRNIXLoFzboj5grgfXXQLwhbyrNwhPwpqZXbIzRco3q95zg65KaBcSqoCW1TKsp4167fINwEX
+        FsoK5VcCChbmPxHU7mGeYBxJJ0krycEsLFlLAAAAAElFTkSuQmCC
+</value>
+  </data>
+  <data name="ChooseSizeStripButton.ImageTransparentColor" type="System.Drawing.Color, System.Drawing">
+    <value>Magenta</value>
+  </data>
+  <data name="ChooseSizeStripButton.Size" type="System.Drawing.Size, System.Drawing">
+    <value>23, 22</value>
+  </data>
+  <data name="ChooseSizeStripButton.Text" xml:space="preserve">
+    <value>ChooseSizeStripButton</value>
+  </data>
+  <data name="ChooseSizeStripButton.ToolTipText" xml:space="preserve">
+    <value>Изменить размер</value>
+  </data>
+  <data name="toolStripSeparator3.Size" type="System.Drawing.Size, System.Drawing">
+    <value>6, 25</value>
+  </data>
+  <data name="CreateRectangleStripButton.Image" type="System.Drawing.Bitmap, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+    <value>
+        iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8
+        YQUAAAAJcEhZcwAADsMAAA7DAcdvqGQAAAA0SURBVDhPY6AYfPv27T8lGGyAk5MTWRjFgA/vP5KERw0Y
+        NQCEqW8AORhuACUYmifJBQwMADTK90/zRXApAAAAAElFTkSuQmCC
+</value>
+  </data>
+  <data name="CreateRectangleStripButton.ImageTransparentColor" type="System.Drawing.Color, System.Drawing">
+    <value>Magenta</value>
+  </data>
+  <data name="CreateRectangleStripButton.Size" type="System.Drawing.Size, System.Drawing">
+    <value>23, 22</value>
+  </data>
+  <data name="CreateRectangleStripButton.Text" xml:space="preserve">
+    <value>CreateRectangleStripButton</value>
+  </data>
+  <data name="CreateRectangleStripButton.ToolTipText" xml:space="preserve">
+    <value>Прямоугольник</value>
+  </data>
+  <data name="CreateEllipseStripButton.Image" type="System.Drawing.Bitmap, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+    <value>
+        iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8
+        YQUAAAAJcEhZcwAADsMAAA7DAcdvqGQAAADLSURBVDhPzZI9DoJAEIU5gZeiwZbQS+sRoLXgRtSWcgAX
+        Gw5gIqDhx27H/RBMTNZqTfQlL5nMfG8Cu+v9l7TWq2EYtuM45sbnvu81pqbHDGbG32WATdd1dZ7nkiSJ
+        RFEkvu9PpqbHDAZ2jj1lNu+UUhLHsWRZJmV5kvrSyLW9TaamxwwGlswUNp+4rqpKwjAUdVSv0CfDwJIh
+        y4J9mqZSHAprwGZYMmRZcA+CQNrmaoVthiVD9isLnH/B7RCR0zUucnpIi5ye8o/keQ8wFzPP3LmKzgAA
+        AABJRU5ErkJggg==
+</value>
+  </data>
+  <data name="CreateEllipseStripButton.ImageTransparentColor" type="System.Drawing.Color, System.Drawing">
+    <value>Magenta</value>
+  </data>
+  <data name="CreateEllipseStripButton.Size" type="System.Drawing.Size, System.Drawing">
+    <value>23, 22</value>
+  </data>
+  <data name="CreateEllipseStripButton.Text" xml:space="preserve">
+    <value>CreateEllipseStripButton</value>
+  </data>
+  <data name="CreateEllipseStripButton.ToolTipText" xml:space="preserve">
+    <value>Эллипс</value>
+  </data>
+  <data name="CreateStraightLineStripButton.Image" type="System.Drawing.Bitmap, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+    <value>
+        iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8
+        YQUAAAAJcEhZcwAADsMAAA7DAcdvqGQAAABASURBVDhPY6AA1AKxDYRJOmgB4v9A3ATmkQhAmkCae8A8
+        EsGoZhLBqGYSAUWaQbkKpLkTzCMDgLIkyAVkAAYGAPpFHh5D1Hg7AAAAAElFTkSuQmCC
+</value>
+  </data>
+  <data name="CreateStraightLineStripButton.ImageTransparentColor" type="System.Drawing.Color, System.Drawing">
+    <value>Magenta</value>
+  </data>
+  <data name="CreateStraightLineStripButton.Size" type="System.Drawing.Size, System.Drawing">
+    <value>23, 22</value>
+  </data>
+  <data name="CreateStraightLineStripButton.Text" xml:space="preserve">
+    <value>CreateStraightLineStripButton</value>
+  </data>
+  <data name="CreateStraightLineStripButton.ToolTipText" xml:space="preserve">
+    <value>Линия</value>
+  </data>
+  <data name="CreateCurveLineStripButton.Image" type="System.Drawing.Bitmap, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+    <value>
+        iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8
+        YQUAAAAJcEhZcwAADsMAAA7DAcdvqGQAAADDSURBVDhPtZLBDcMgEAQpKSVE/tOWv2nAPbgO/hRAEQie
+        hCFHZIiFiZSstDJi95Y7jPo5Yoz3EMKemTruaGI7RzY9nHNpXdektU7LshSyZg8Nj9hbIFhrm8KeaHg+
+        QmiN9FrMd9u2ZIwpZH3U8DbjMB8tdqeUmeudHLvDy56Ul4C3yGmNKGAP35EivQIohqy99zeR5tAHXP6u
+        HhRdjTAEBWeXOD3K6DfSndjGyMbThzQdAAjpn/JXAaA+HAorRfoHlHoC1qRMaNzVfBYAAAAASUVORK5C
+        YII=
+</value>
+  </data>
+  <data name="CreateCurveLineStripButton.ImageTransparentColor" type="System.Drawing.Color, System.Drawing">
+    <value>Magenta</value>
+  </data>
+  <data name="CreateCurveLineStripButton.Size" type="System.Drawing.Size, System.Drawing">
+    <value>23, 22</value>
+  </data>
+  <data name="CreateCurveLineStripButton.Text" xml:space="preserve">
+    <value>CreateCurveLineStripButton</value>
+  </data>
+  <data name="CreateCurveLineStripButton.ToolTipText" xml:space="preserve">
+    <value>Кривая</value>
+  </data>
+  <data name="toolStripSeparator4.Size" type="System.Drawing.Size, System.Drawing">
+    <value>6, 25</value>
+  </data>
+  <data name="ToolStrip.Location" type="System.Drawing.Point, System.Drawing">
+    <value>0, 24</value>
+  </data>
+  <data name="ToolStrip.Size" type="System.Drawing.Size, System.Drawing">
+    <value>1113, 25</value>
+  </data>
+  <data name="ToolStrip.TabIndex" type="System.Int32, mscorlib">
+    <value>4</value>
+  </data>
+  <data name="ToolStrip.Text" xml:space="preserve">
+    <value>toolStrip1</value>
+  </data>
+  <data name="&gt;&gt;ToolStrip.Name" xml:space="preserve">
+    <value>ToolStrip</value>
+  </data>
+  <data name="&gt;&gt;ToolStrip.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ToolStrip, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;ToolStrip.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;ToolStrip.ZOrder" xml:space="preserve">
     <value>0</value>
   </data>
   <metadata name="$this.Localizable" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
     <value>True</value>
   </metadata>
+  <metadata name="$this.TrayHeight" type="System.Int32, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>66</value>
+  </metadata>
   <data name="$this.AutoScaleDimensions" type="System.Drawing.SizeF, System.Drawing">
     <value>6, 13</value>
   </data>
   <data name="$this.ClientSize" type="System.Drawing.Size, System.Drawing">
-    <value>1008, 729</value>
-  </data>
-  <data name="$this.RightToLeftLayout" type="System.Boolean, mscorlib">
-    <value>True</value>
-  </data>
-  <data name="$this.Text" xml:space="preserve">
-    <value>MenuStrip</value>
+    <value>1113, 626</value>
   </data>
   <data name="&gt;&gt;windowToolStripMenuItem.Name" xml:space="preserve">
     <value>windowToolStripMenuItem</value>
@@ -185,17 +653,227 @@
   <data name="&gt;&gt;windowToolStripMenuItem.Type" xml:space="preserve">
     <value>System.Windows.Forms.ToolStripMenuItem, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </data>
-  <data name="&gt;&gt;newToolStripMenuItem.Name" xml:space="preserve">
-    <value>newToolStripMenuItem</value>
+  <data name="&gt;&gt;NewToolStripMenuItem.Name" xml:space="preserve">
+    <value>NewToolStripMenuItem</value>
   </data>
-  <data name="&gt;&gt;newToolStripMenuItem.Type" xml:space="preserve">
+  <data name="&gt;&gt;NewToolStripMenuItem.Type" xml:space="preserve">
     <value>System.Windows.Forms.ToolStripMenuItem, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </data>
-  <data name="&gt;&gt;windowToolStripMenuItem1.Name" xml:space="preserve">
-    <value>windowToolStripMenuItem1</value>
+  <data name="&gt;&gt;OpenToolStripMenuItem.Name" xml:space="preserve">
+    <value>OpenToolStripMenuItem</value>
   </data>
-  <data name="&gt;&gt;windowToolStripMenuItem1.Type" xml:space="preserve">
+  <data name="&gt;&gt;OpenToolStripMenuItem.Type" xml:space="preserve">
     <value>System.Windows.Forms.ToolStripMenuItem, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;SaveToolStripMenuItem.Name" xml:space="preserve">
+    <value>SaveToolStripMenuItem</value>
+  </data>
+  <data name="&gt;&gt;SaveToolStripMenuItem.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ToolStripMenuItem, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;Save_AsToolStripMenuItem.Name" xml:space="preserve">
+    <value>Save_AsToolStripMenuItem</value>
+  </data>
+  <data name="&gt;&gt;Save_AsToolStripMenuItem.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ToolStripMenuItem, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;toolStripMenuItem1.Name" xml:space="preserve">
+    <value>toolStripMenuItem1</value>
+  </data>
+  <data name="&gt;&gt;toolStripMenuItem1.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ToolStripMenuItem, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;LineColorToolStripMenuItem.Name" xml:space="preserve">
+    <value>LineColorToolStripMenuItem</value>
+  </data>
+  <data name="&gt;&gt;LineColorToolStripMenuItem.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ToolStripMenuItem, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;BackgroundColorToolStripMenuItem.Name" xml:space="preserve">
+    <value>BackgroundColorToolStripMenuItem</value>
+  </data>
+  <data name="&gt;&gt;BackgroundColorToolStripMenuItem.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ToolStripMenuItem, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;LineWidthToolStripMenuItem.Name" xml:space="preserve">
+    <value>LineWidthToolStripMenuItem</value>
+  </data>
+  <data name="&gt;&gt;LineWidthToolStripMenuItem.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ToolStripMenuItem, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;ImageSizeToolStripMenuItem.Name" xml:space="preserve">
+    <value>ImageSizeToolStripMenuItem</value>
+  </data>
+  <data name="&gt;&gt;ImageSizeToolStripMenuItem.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ToolStripMenuItem, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;FugureToolStripMenuItem.Name" xml:space="preserve">
+    <value>FugureToolStripMenuItem</value>
+  </data>
+  <data name="&gt;&gt;FugureToolStripMenuItem.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ToolStripMenuItem, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;StraightLineMenuStrip.Name" xml:space="preserve">
+    <value>StraightLineMenuStrip</value>
+  </data>
+  <data name="&gt;&gt;StraightLineMenuStrip.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ToolStripMenuItem, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;CurveLineMenuStrip.Name" xml:space="preserve">
+    <value>CurveLineMenuStrip</value>
+  </data>
+  <data name="&gt;&gt;CurveLineMenuStrip.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ToolStripMenuItem, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;RectangleMenuStrip.Name" xml:space="preserve">
+    <value>RectangleMenuStrip</value>
+  </data>
+  <data name="&gt;&gt;RectangleMenuStrip.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ToolStripMenuItem, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;EllipseMenuStrip.Name" xml:space="preserve">
+    <value>EllipseMenuStrip</value>
+  </data>
+  <data name="&gt;&gt;EllipseMenuStrip.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ToolStripMenuItem, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;FillMenuStrip.Name" xml:space="preserve">
+    <value>FillMenuStrip</value>
+  </data>
+  <data name="&gt;&gt;FillMenuStrip.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ToolStripMenuItem, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;statusBarPanelCursor.Name" xml:space="preserve">
+    <value>statusBarPanelCursor</value>
+  </data>
+  <data name="&gt;&gt;statusBarPanelCursor.Type" xml:space="preserve">
+    <value>System.Windows.Forms.StatusBarPanel, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;statusBarPanelColor1.Name" xml:space="preserve">
+    <value>statusBarPanelColor1</value>
+  </data>
+  <data name="&gt;&gt;statusBarPanelColor1.Type" xml:space="preserve">
+    <value>System.Windows.Forms.StatusBarPanel, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;statusBarPanelColor2.Name" xml:space="preserve">
+    <value>statusBarPanelColor2</value>
+  </data>
+  <data name="&gt;&gt;statusBarPanelColor2.Type" xml:space="preserve">
+    <value>System.Windows.Forms.StatusBarPanel, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;statusBarPanelWidth.Name" xml:space="preserve">
+    <value>statusBarPanelWidth</value>
+  </data>
+  <data name="&gt;&gt;statusBarPanelWidth.Type" xml:space="preserve">
+    <value>System.Windows.Forms.StatusBarPanel, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;statusBarPanelSize.Name" xml:space="preserve">
+    <value>statusBarPanelSize</value>
+  </data>
+  <data name="&gt;&gt;statusBarPanelSize.Type" xml:space="preserve">
+    <value>System.Windows.Forms.StatusBarPanel, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;OpenFileStripButton.Name" xml:space="preserve">
+    <value>OpenFileStripButton</value>
+  </data>
+  <data name="&gt;&gt;OpenFileStripButton.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ToolStripButton, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;NewFileStripButton.Name" xml:space="preserve">
+    <value>NewFileStripButton</value>
+  </data>
+  <data name="&gt;&gt;NewFileStripButton.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ToolStripButton, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;SaveStripButton.Name" xml:space="preserve">
+    <value>SaveStripButton</value>
+  </data>
+  <data name="&gt;&gt;SaveStripButton.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ToolStripButton, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;SaveAsStripButton.Name" xml:space="preserve">
+    <value>SaveAsStripButton</value>
+  </data>
+  <data name="&gt;&gt;SaveAsStripButton.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ToolStripButton, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;toolStripSeparator1.Name" xml:space="preserve">
+    <value>toolStripSeparator1</value>
+  </data>
+  <data name="&gt;&gt;toolStripSeparator1.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ToolStripSeparator, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;LineColorStripButton.Name" xml:space="preserve">
+    <value>LineColorStripButton</value>
+  </data>
+  <data name="&gt;&gt;LineColorStripButton.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ToolStripButton, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;ColorBackgroundStripButton.Name" xml:space="preserve">
+    <value>ColorBackgroundStripButton</value>
+  </data>
+  <data name="&gt;&gt;ColorBackgroundStripButton.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ToolStripButton, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;LineWidthStripButton.Name" xml:space="preserve">
+    <value>LineWidthStripButton</value>
+  </data>
+  <data name="&gt;&gt;LineWidthStripButton.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ToolStripButton, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;toolStripSeparator2.Name" xml:space="preserve">
+    <value>toolStripSeparator2</value>
+  </data>
+  <data name="&gt;&gt;toolStripSeparator2.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ToolStripSeparator, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;ChooseSizeStripButton.Name" xml:space="preserve">
+    <value>ChooseSizeStripButton</value>
+  </data>
+  <data name="&gt;&gt;ChooseSizeStripButton.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ToolStripButton, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;toolStripSeparator3.Name" xml:space="preserve">
+    <value>toolStripSeparator3</value>
+  </data>
+  <data name="&gt;&gt;toolStripSeparator3.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ToolStripSeparator, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;CreateRectangleStripButton.Name" xml:space="preserve">
+    <value>CreateRectangleStripButton</value>
+  </data>
+  <data name="&gt;&gt;CreateRectangleStripButton.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ToolStripButton, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;CreateEllipseStripButton.Name" xml:space="preserve">
+    <value>CreateEllipseStripButton</value>
+  </data>
+  <data name="&gt;&gt;CreateEllipseStripButton.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ToolStripButton, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;CreateStraightLineStripButton.Name" xml:space="preserve">
+    <value>CreateStraightLineStripButton</value>
+  </data>
+  <data name="&gt;&gt;CreateStraightLineStripButton.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ToolStripButton, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;CreateCurveLineStripButton.Name" xml:space="preserve">
+    <value>CreateCurveLineStripButton</value>
+  </data>
+  <data name="&gt;&gt;CreateCurveLineStripButton.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ToolStripButton, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;toolStripSeparator4.Name" xml:space="preserve">
+    <value>toolStripSeparator4</value>
+  </data>
+  <data name="&gt;&gt;toolStripSeparator4.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ToolStripSeparator, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;FillStripButton.Name" xml:space="preserve">
+    <value>FillStripButton</value>
+  </data>
+  <data name="&gt;&gt;FillStripButton.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ToolStripButton, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </data>
   <data name="&gt;&gt;$this.Name" xml:space="preserve">
     <value>Form1</value>
