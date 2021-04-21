@@ -210,7 +210,7 @@ ScrollCalibaration(ScrollShift);
             g.DrawCurve(new Pen(LineColor, LineWidth), Points.ToArray());
 
         }
-        //Риосование сплошной линией
+        //Рисование сплошной линией
         public override void Draw(Graphics g, Point ScrollShift)
         {
             if(!IsScrolling)

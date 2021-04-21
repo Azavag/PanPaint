@@ -131,7 +131,7 @@ namespace Laba1
         {
             //Можно сделать проверку на выход за пределы границ формы
             //В строке состояние записываем расположение курсора
-            main.GetStatusBar().Panels[0].Text = e.Location.X + ", " + e.Location.Y + "пкс";
+            main.GetStatusBar().Panels[0].Text = (e.Location.X - AutoScrollPosition.X) + ", " + (e.Location.Y - AutoScrollPosition.Y) + "пкс";
 
             if (!isMouseDown)
             {
