@@ -173,7 +173,7 @@ namespace Class
         }
         public override void Draw(Graphics g, Point ScrollShift)
         {
-ScrollCalibaration(ScrollShift);
+            ScrollCalibaration(ScrollShift);
             g.DrawLine(new Pen(LineColor, LineWidth), point1.X + ScrollShift.X, point1.Y + ScrollShift.Y, point2.X + ScrollShift.X, point2.Y + ScrollShift.Y);
         }
         //Стирание предыдущих контуров
